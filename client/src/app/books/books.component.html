@@ -1,0 +1,22 @@
+<br>
+ <div [class.allBook]="true">
+ <input   type="text" [(ngModel)]="name" placeholder="לחיפוש לפי שם"/>
+ <br>
+ <br>
+ <h3 *ngIf="name">תוצאות החיפוש עבור: {{name}} </h3>
+
+ <div  (click)="onClick()"[style.backgroundColor]="color"> כל הספרים </div>
+ <app-category></app-category> 
+ <div *ngFor="let x of BookList | search : name" [class.divclass]="!x.title || !x.author || !x.id">
+    <p>שם הספר:{{x.title | titlecase}}</p>
+    <p>שם המחבר:{{x.author}}</p>
+    <p>קוד הספר:{{x.id}}</p>
+    <p><a routerLink="/bookDetails/{{x.id}}">לחץ כאן לפרטי הספר</a></p>
+  </div>
+  <p *ngIf="BookList.length==0">הרשימה ריקה</p>
+  <h3 *ngIf="BookList.length>0">סה"כ {{BookList.length}} ספרים ברשימה</h3>
+  </div>
+ 
+  
+ 
+  

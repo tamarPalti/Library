@@ -1,0 +1,12 @@
+D:\תכנות\שעורי בית\שנה ב\פרויקט\ProjectWebApi\DTO\bin\Debug\net5.0\DTO.deps.json
+D:\תכנות\שעורי בית\שנה ב\פרויקט\ProjectWebApi\DTO\bin\Debug\net5.0\DTO.dll
+D:\תכנות\שעורי בית\שנה ב\פרויקט\ProjectWebApi\DTO\bin\Debug\net5.0\ref\DTO.dll
+D:\תכנות\שעורי בית\שנה ב\פרויקט\ProjectWebApi\DTO\bin\Debug\net5.0\DTO.pdb
+D:\תכנות\שעורי בית\שנה ב\פרויקט\ProjectWebApi\DTO\obj\Debug\net5.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\תכנות\שעורי בית\שנה ב\פרויקט\ProjectWebApi\DTO\obj\Debug\net5.0\DTO.AssemblyInfoInputs.cache
+D:\תכנות\שעורי בית\שנה ב\פרויקט\ProjectWebApi\DTO\obj\Debug\net5.0\DTO.AssemblyInfo.cs
+D:\תכנות\שעורי בית\שנה ב\פרויקט\ProjectWebApi\DTO\obj\Debug\net5.0\DTO.csproj.CoreCompileInputs.cache
+D:\תכנות\שעורי בית\שנה ב\פרויקט\ProjectWebApi\DTO\obj\Debug\net5.0\DTO.dll
+D:\תכנות\שעורי בית\שנה ב\פרויקט\ProjectWebApi\DTO\obj\Debug\net5.0\ref\DTO.dll
+D:\תכנות\שעורי בית\שנה ב\פרויקט\ProjectWebApi\DTO\obj\Debug\net5.0\DTO.pdb
+D:\תכנות\שעורי בית\שנה ב\פרויקט\ProjectWebApi\DTO\obj\Debug\net5.0\DTO.csprojAssemblyReference.cache

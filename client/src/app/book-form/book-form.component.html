@@ -1,0 +1,27 @@
+<form #myForm="ngForm" (ngSubmit)="save()">
+    <label>title:</label>
+    <input type="text" name="title" [(ngModel)]="book.title" required placeholder="title" #title="ngModel">
+    <label *ngIf="!title.valid&&title.touched">חובה למלא</label>
+    <br>
+    <label>author:</label>
+    <input type="text" name="author" [(ngModel)]="book.author" required placeholder="author" #author="ngModel">
+    <label *ngIf="!author.valid&&author.touched">חובה למלא</label>
+    <br>
+    <label>summary:</label>
+    <input type="text" name="summary" [(ngModel)]="book.summary" required placeholder="summary" #summary="ngModel">
+    <label *ngIf="!summary.valid&&summary.touched">חובה למלא</label>
+    <br>
+    <label>ageCategory:</label>
+    <select name="ageCategory" [(ngModel)]="book.ageCategory" #ageCategory="ngModel">
+        <option *ngFor="let category of categoryList" [value]="category.id" [style.backgroundColor]="category.color">{{category.name}}</option>
+    </select>
+    <label *ngIf="!ageCategory.valid&&ageCategory.touched">חובה למלא</label>
+    <br>
+    <label>pageCount:</label>
+    <input type="number" name="pageCount" [(ngModel)]="book.pageCount" required placeholder="pageCount" #pageCount="ngModel">
+    <label *ngIf="!pageCount.valid&&pageCount.touched">חובה למלא</label>
+    <br>
+    <input type="submit" [disabled]="!myForm.valid" value="save">
+    <br>
+    <label *ngIf="!myForm.valid&&myForm.touched">הטופס לא מלא חובה למלאות את הכל</label>
+</form>

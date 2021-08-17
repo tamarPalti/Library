@@ -1,0 +1,22 @@
+<form [formGroup]="form" (ngSubmit)="save()" >
+    <label>lending:</label>
+    <select formControlName="idborrower" [class.red]="form.controls.idborrower.status=='INVALID'&&form.controls.idborrower.touched">
+        <option *ngFor="let Borrower of BorrowerLIst" [value]="Borrower.id">{{Borrower.firstName}} {{Borrower.id}}</option>
+    </select><label *ngIf="form.controls.idborrower.status=='INVALID'&&form.controls.idborrower.touched"> חובה לבחור ערך</label>
+    <br>
+    <label>book-name:</label>
+    <select formControlName="id" [class.red]="form.controls.id.status=='INVALID'&&form.controls.id.touched">
+        <option *ngFor="let Book of BookList" [value]="Book.id">{{Book.title}}</option>
+    </select><label *ngIf="form.controls.id.status=='INVALID'&&form.controls.id.touched"> חובה לבחור ערך</label>
+    <br>
+    <input type="submit" value="save" [disabled]="form.valid?'':'disabled'"/>
+</form>
+
+<button (click)="printFormGroup()">print</button>
+<!-- {{form.value|json}} -->
+
+
+
+
+
+

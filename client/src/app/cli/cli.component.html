@@ -1,0 +1,19 @@
+<!-- דרך אחת -->
+<!-- <input   type="text" bind-placeholder="myPlaceholder" [(ngModel)]="name" [class.color]="getcolor()" /> -->
+<!-- דרך שניה -->
+<input   type="text" bind-placeholder="myPlaceholder" [(ngModel)]="name" [class.color]="!name" />
+<p *ngIf="!name">הכנס את שימך!!!</p>
+<!-- דרך אחת -->
+<!-- <p [class.color1]="getcolor1()">Test of:{{name}}</p> -->
+<!-- דרך שניה -->
+<p [class.color1]="name">Test of:{{name}}</p>
+<p>mark:{{getMark()}}</p>
+<div>{{oraot}}</div>
+<p>{{x}}</p>
+<p *ngFor="let qwe of qwetion;let y=index">{{y+1+"."+qwe}}</p>
+<button (click)="markTest()">mark</button>
+<div [ngSwitch]="getMark()">
+    <p  *ngSwitchCase ="maxMark">ציון מקסימלי</p>	
+    <p  *ngSwitchCase ="minMark">ציון מינימיל</p>
+    <p  *ngSwitchDefault >ציון ביניים</p> 	
+</div>

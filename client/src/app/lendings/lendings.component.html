@@ -1,0 +1,9 @@
+<div [class.allLending]="true">
+<div *ngFor="let x of lendingsList"[class.divclass1]="!x.returnDate"[class.divclass2]="x.returnDate">
+    <h1>קוד השאלה:{{x.id}}</h1>
+    <p>שם:{{x.borrowerLastName}} {{x.borrowerFirstName}}</p>
+    <p>תאריך השאלה:{{x.landingDate|date:'EEEE, MMMM d, y'}}</p>
+    <p>תאריך החזרה:{{x.returnDate|date:'EEEE, MMMM d, y'}}</p> 
+    <p *ngIf="!x.returnDate && x.landingDate && today.getTime()-x.landingDate.getTime()>=30">יש להחזיר את הספר בהקדם</p>  
+</div>
+</div>

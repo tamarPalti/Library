@@ -1,0 +1,26 @@
+<form [formGroup]="form" (ngSubmit)="save()" >
+    <label>tz:</label>
+    <input type="text" formControlName="tz" [class.red]="form.controls.tz.status=='INVALID'&&form.controls.tz.touched"/><label *ngIf="form.controls.tz.status=='INVALID'&&form.controls.tz.touched">חייב להכיל 9 ספרות</label>
+    <br>
+    <label>category:</label>
+    <select formControlName="ageCategory">
+        <option *ngFor="let category of categoryList" [style.backgroundColor]="category.color" [value]="category.id">{{category.name}}</option>
+    </select>
+    <br>
+    <label>firstName:</label>
+    <input type="text" formControlName="firstName"[class.red]="form.controls.firstName.status=='INVALID'&&form.controls.firstName.touched"/><label *ngIf="form.controls.firstName.status=='INVALID'&&form.controls.firstName.touched">חייב להכיל לפחות 2 תוווים</label>
+    <br>
+    <label>lastName:</label>
+    <input type="text" formControlName="lastName"/>
+    <br>
+    <label>phoneNumber:</label>
+    <input type="text" formControlName="phoneNumber"/>
+    <br>
+    <label>mail:</label>
+    <input type="email" formControlName="mail"/>
+    <br>
+    <input type="submit" value="save" [disabled]="form.valid?'':'disabled'"/>
+    <input type="button" value="reset" (click)="reset()" />
+</form>
+ <button (click)="printFormGroup()">print</button>
+<!-- {{form.value|json}} -->

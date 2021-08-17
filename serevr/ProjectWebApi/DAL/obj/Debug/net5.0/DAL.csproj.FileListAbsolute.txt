@@ -1,0 +1,11 @@
+D:\תכנות\שעורי בית\שנה ב\פרויקט\ProjectWebApi\DAL\bin\Debug\net5.0\DAL.deps.json
+D:\תכנות\שעורי בית\שנה ב\פרויקט\ProjectWebApi\DAL\bin\Debug\net5.0\DAL.dll
+D:\תכנות\שעורי בית\שנה ב\פרויקט\ProjectWebApi\DAL\bin\Debug\net5.0\ref\DAL.dll
+D:\תכנות\שעורי בית\שנה ב\פרויקט\ProjectWebApi\DAL\bin\Debug\net5.0\DAL.pdb
+D:\תכנות\שעורי בית\שנה ב\פרויקט\ProjectWebApi\DAL\obj\Debug\net5.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\תכנות\שעורי בית\שנה ב\פרויקט\ProjectWebApi\DAL\obj\Debug\net5.0\DAL.AssemblyInfoInputs.cache
+D:\תכנות\שעורי בית\שנה ב\פרויקט\ProjectWebApi\DAL\obj\Debug\net5.0\DAL.AssemblyInfo.cs
+D:\תכנות\שעורי בית\שנה ב\פרויקט\ProjectWebApi\DAL\obj\Debug\net5.0\DAL.csproj.CoreCompileInputs.cache
+D:\תכנות\שעורי בית\שנה ב\פרויקט\ProjectWebApi\DAL\obj\Debug\net5.0\DAL.dll
+D:\תכנות\שעורי בית\שנה ב\פרויקט\ProjectWebApi\DAL\obj\Debug\net5.0\ref\DAL.dll
+D:\תכנות\שעורי בית\שנה ב\פרויקט\ProjectWebApi\DAL\obj\Debug\net5.0\DAL.pdb

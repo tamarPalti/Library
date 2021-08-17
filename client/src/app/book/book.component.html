@@ -1,0 +1,8 @@
+<div>    
+  <h1>שם הספר:{{BookDetails.title | titlecase}}</h1>
+  <p>שם המחבר:{{BookDetails.author}}</p>
+  <p>תאור:{{BookDetails.summary}}</p>
+  <app-new-category [category]="getCategory(BookDetails.ageCategory)"></app-new-category>
+  <p *ngIf="BookDetails.pageCount>400">הספר עבה במיוחד</p>
+  <p *ngIf="BookDetails.ageCategory>1 && 50>BookDetails.pageCount">הספר דק במיוחד</p>
+</div>

@@ -1,0 +1,6 @@
+form > .ng-touched{
+    border-color: green;
+}
+form > .ng-invalid{
+    border-color: red;
+}

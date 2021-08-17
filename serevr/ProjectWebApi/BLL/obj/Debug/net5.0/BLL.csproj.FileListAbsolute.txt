@@ -1,0 +1,17 @@
+D:\תכנות\שעורי בית\שנה ב\פרויקט\ProjectWebApi\BLL\bin\Debug\net5.0\BLL.deps.json
+D:\תכנות\שעורי בית\שנה ב\פרויקט\ProjectWebApi\BLL\bin\Debug\net5.0\BLL.dll
+D:\תכנות\שעורי בית\שנה ב\פרויקט\ProjectWebApi\BLL\bin\Debug\net5.0\ref\BLL.dll
+D:\תכנות\שעורי בית\שנה ב\פרויקט\ProjectWebApi\BLL\bin\Debug\net5.0\BLL.pdb
+D:\תכנות\שעורי בית\שנה ב\פרויקט\ProjectWebApi\BLL\bin\Debug\net5.0\DAL.dll
+D:\תכנות\שעורי בית\שנה ב\פרויקט\ProjectWebApi\BLL\bin\Debug\net5.0\DTO.dll
+D:\תכנות\שעורי בית\שנה ב\פרויקט\ProjectWebApi\BLL\bin\Debug\net5.0\DAL.pdb
+D:\תכנות\שעורי בית\שנה ב\פרויקט\ProjectWebApi\BLL\bin\Debug\net5.0\DTO.pdb
+D:\תכנות\שעורי בית\שנה ב\פרויקט\ProjectWebApi\BLL\obj\Debug\net5.0\BLL.csprojAssemblyReference.cache
+D:\תכנות\שעורי בית\שנה ב\פרויקט\ProjectWebApi\BLL\obj\Debug\net5.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\תכנות\שעורי בית\שנה ב\פרויקט\ProjectWebApi\BLL\obj\Debug\net5.0\BLL.AssemblyInfoInputs.cache
+D:\תכנות\שעורי בית\שנה ב\פרויקט\ProjectWebApi\BLL\obj\Debug\net5.0\BLL.AssemblyInfo.cs
+D:\תכנות\שעורי בית\שנה ב\פרויקט\ProjectWebApi\BLL\obj\Debug\net5.0\BLL.csproj.CoreCompileInputs.cache
+D:\תכנות\שעורי בית\שנה ב\פרויקט\ProjectWebApi\BLL\obj\Debug\net5.0\BLL.csproj.CopyComplete
+D:\תכנות\שעורי בית\שנה ב\פרויקט\ProjectWebApi\BLL\obj\Debug\net5.0\BLL.dll
+D:\תכנות\שעורי בית\שנה ב\פרויקט\ProjectWebApi\BLL\obj\Debug\net5.0\ref\BLL.dll
+D:\תכנות\שעורי בית\שנה ב\פרויקט\ProjectWebApi\BLL\obj\Debug\net5.0\BLL.pdb

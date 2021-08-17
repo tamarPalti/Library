@@ -1,0 +1,19 @@
+<div [class.allBorrower]="true">
+<div *ngFor="let x of BorrowerLIst">
+    <h1>קוד :{{x.id}}</h1>
+    <p>שם:{{x.firstName|name}} {{x.lastName}}</p>
+    <p>ת"ז:{{x.tz}}</p>
+    <p *ngIf="!x.mail">פלאפון:{{x.phoneNumber}}</p>
+    <a *ngIf="x.mail" href = "mailto:{{x.mail}}?subject = Feedback&body = {{x.firstName}} {{x.lastName}} שלום,יקר">
+        Send Feedback
+    </a> 
+</div>
+<p>
+    <input type="checkbox" [(ngModel)]="mychekbox"/>
+     סמן כאן להוספת שואל
+</p>
+
+<app-borrower-form *ngIf="mychekbox" [ifClear]="mychekbox" (myoutput)="GetAllBorrwer($event)">
+
+</app-borrower-form>
+</div>
